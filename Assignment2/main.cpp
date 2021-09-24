@@ -7,12 +7,11 @@ void change_luck(Person* person, Person* person2)
 	int luck2 = person2->getluck();
 	person->setLuck(luck2);
 	person2->setLuck(luck1);
-
 }
 int main()
 {		
-	//Person* person = new Person("Nurassyl", 20, std::rand());
-	//std::cout << person->getName() << std::endl;
+	Person* person = new Person("Nurassyl", 20, std::rand());
+	std::cout << person->getName() << std::endl;
 	std::vector<Person>persons(5);
 	for (int i = 0; i <5; i++)
 	{

@@ -1,9 +1,9 @@
 #include "Person.h"
 Person::Person()
 {
-	/*name = "name";
+	name = "name";
 	age = 1;
-	luck = 1;*/
+	luck = 1;
 }
 Person::Person(std::string name, int age, int luck)
 {
