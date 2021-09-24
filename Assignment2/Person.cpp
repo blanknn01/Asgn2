@@ -1,15 +1,14 @@
 #include "Person.h"
-Person::Person()
-{
-	name = "name";
-	age = 1;
-	luck = 1;
-}
+
 Person::Person(std::string name, int age, int luck)
 {
 	this->name = name;
 	this->age = age;
 	this->luck = luck;
+}
+Person::Person()
+{
+	Person("name", 0, 0);
 }
 void Person::setPerson(std::string name, int age,int luck)
 {
